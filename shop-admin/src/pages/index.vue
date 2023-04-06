@@ -1,7 +1,7 @@
 <template>
   <div>
+     地覅欧吉桑发窘几哈卡死皮带机哈看哦韩国语
     后台首页
-    <h1>电风扇电饭锅</h1> 
     {{count}}
     <el-button @click="addCount">{{ count }}</el-button>
     <el-button @click="addCount2">{{ count }}</el-button>
