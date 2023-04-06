@@ -17,7 +17,7 @@ export default defineConfig({
   server:{
     proxy:{
       '/api': {
-        target: 'http://shopai.2yuecloud.com',
+        target: 'http://shopapi.2yuecloud.com',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
